@@ -38,6 +38,9 @@ Deploy the application on a cloud platform for wider accessibility.
 Add support for video classification.
 ## Acknowledgements
 Model: EfficientNetB0
+
 Dataset: https://www.kaggle.com/datasets/gpiosenka/sports-classification
+
 Framework: TensorFlow/Keras
+
 Flask: Lightweight web application framework.
