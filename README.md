@@ -8,11 +8,11 @@ This project implements Transfer Learning with EfficientNet to classify 100 diff
 ### Pre-trained Model: The project leverages Transfer Learning, significantly reducing training time while achieving 97% accuracy.
 
 ## File Structure
-sports-classification-efficientnet.ipynb: Contains the complete training process, including data preprocessing, model building, training, and evaluation.
-app.py: Flask application to serve predictions.
-sports_model_efficient_net.h5: Pre-trained model saved for deployment.
-templates/index.html: Frontend interface for the web app.
-requirements.txt: List of required Python libraries.
+* sports-classification-efficientnet.ipynb: Contains the complete training process, including data preprocessing, model building, training, and evaluation.
+* app.py: Flask application to serve predictions.
+* sports_model_efficient_net.h5: Pre-trained model saved for deployment.
+* templates/index.html: Frontend interface for the web app.
+* requirements.txt: List of required Python libraries.
 
 ## Setup Instructions
 Clone the Repository
