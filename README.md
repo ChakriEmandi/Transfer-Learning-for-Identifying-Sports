@@ -15,20 +15,20 @@ This project implements Transfer Learning with EfficientNet to classify 100 diff
 * requirements.txt: List of required Python libraries.
 
 ## Setup Instructions
-Clone the Repository
-git clone <repository-url>
-cd sports-classification-efficientnet
-Install Dependencies
-Install necessary Python libraries
-Run the Flask Application
-Start the server to use the web application:
+* Clone the Repository
+* git clone <repository-url>
+* cd sports-classification-efficientnet
+* Install Dependencies
+* Install necessary Python libraries
+* Run the Flask Application
+* Start the server to use the web application:
 
 ## python app.py
 The application will be accessible at http://127.0.0.1:5000/.
 ## Usage
-Open the web application in a browser.
-Upload an image of a sport using the provided form.
-The app will display the predicted sport along with a confidence score.
+* Open the web application in a browser.
+* Upload an image of a sport using the provided form.
+* The app will display the predicted sport along with a confidence score.
 ## Model Details
 Preprocessing: Images are resized to 224x224 and normalized using EfficientNet's preprocessing pipeline.
 Prediction: Outputs the most likely sports class with the associated probability.
